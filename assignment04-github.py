@@ -2,16 +2,16 @@ import requests
 from github import Github
 from config import apiKeys as cfg  # Modules imported
   
-apiKey = cfg["aprivateonekey"] 
+apiKey = cfg["aprivateonekey"] # My private key
 g = Github(apiKey)
 
-repo = g.get_repo("lmacakova/aprivateone")
-fileInfo = repo.get_contents("README.md")
+repo = g.get_repo("lmacakova/wssaa.assignements") # Chosen repository
+fileInfo = repo.get_contents("text.txt") # Chosen file
 urlOfFile = fileInfo.download_url
 response = requests.get(urlOfFile)
 contentOfFile = response.text
-print (contentOfFile) 
-newContent = "Lucia"
-print (newContent) 
+print (contentOfFile) # Current content
+newContent = "Lucia"  # New content
 gitHubResponse=repo.update_file(fileInfo.path,"Assignment4", newContent, fileInfo.sha)
 print (gitHubResponse) 
+print (contentOfFile)
