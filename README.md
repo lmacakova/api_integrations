@@ -8,7 +8,7 @@ I used modules requests[^1], json[^2], Github from PyGithub library[^3], and an 
 
 ##### assignment2-carddraw.py
 
-Task: To write a program that prints out 5 cards from https://deckofcardsapi.com[^4], and to print the value and suit of each card.
+Task: To write a program that prints out 5 cards from www.deckofcardsapi.com[^4], and to print the value and suit of each card.
 
 Solution: From the webpage https://deckofcardsapi.com I copied a url https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1 to get a deck through requests.get(url) and printed its information as json object. Then I asked a draw for this deck with draw url https://deckofcardsapi.com/api/deck/{deck_id}/draw/?count=5 through requests.get(draw_url) and printed this draw.
 
