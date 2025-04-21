@@ -8,3 +8,4 @@ response = requests.get(cso)
 exchequer_data=response.json()
 with open("cso.json", "w") as f: # printed and stored
         f.write(response.text)
+        
