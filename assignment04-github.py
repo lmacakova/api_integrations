@@ -1,6 +1,6 @@
 import requests
 from github import Github
-from config import apikey as cfg # Modules imported
+from config import apikey as cfg  # Modules imported
   
 apikey = cfg["aprivateonekey"] 
 g = Github(apikey)
