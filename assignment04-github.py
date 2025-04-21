@@ -1,9 +1,9 @@
 import requests
 from github import Github
-from config import apikey as cfg  # Modules imported
+from config import apiKeys as cfg  # Modules imported
   
-apikey = cfg["aprivateonekey"] 
-g = Github(apikey)
+apiKey = cfg["aprivateonekey"] 
+g = Github(apiKey)
 
 repo = g.get_repo("lmacakova/aprivateone")
 fileInfo = repo.get_contents("README.md")
