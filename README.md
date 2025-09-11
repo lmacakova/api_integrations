@@ -1,7 +1,6 @@
-# wsaa.assignments
+![web page creating](https://images.pexels.com/photos/326514/pexels-photo-326514.jpeg)
+# Web Service and Applications - Assignment tasks
 ## Author: Lucia Macakova
-## Web Service and Applications - Assignment tasks
-
 ### About: 
 This is my solution for assignment tasks in the module Web Services and Applications. I am the only contributor.
 I used modules requests[^1], json[^2], Github from PyGithub library[^3], and an authorisation token from my config.py file
@@ -34,4 +33,5 @@ email: G00439449@atu.ie
 [^2]:   https://docs.python.org/3/library/json.html   
 [^3]:   https://pygithub.readthedocs.io/en/latest/introduction.html
 [^4]:   https://deckofcardsapi.com
+
 [^5]:   https://www.cso.ie/en/index.html
