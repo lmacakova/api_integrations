@@ -23,7 +23,7 @@ Solution: I asked for the creation of an authorization token for the repository,
 
 
 ### Contact:
-Lucia Macakova
+Lucia Macakova\
 email: G00439449@atu.ie
 
 
@@ -33,5 +33,5 @@ email: G00439449@atu.ie
 [^2]:   https://docs.python.org/3/library/json.html   
 [^3]:   https://pygithub.readthedocs.io/en/latest/introduction.html
 [^4]:   https://deckofcardsapi.com
-
 [^5]:   https://www.cso.ie/en/index.html
+
