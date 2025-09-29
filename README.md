@@ -1,17 +1,10 @@
-<<<<<<< HEAD
+![web page creating](https://images.pexels.com/photos/326514/pexels-photo-326514.jpeg)
 # Api Integrations
 
 ---
 
 ## About: 
 The examples of API integrations.\
-=======
-![web page creating](https://images.pexels.com/photos/326514/pexels-photo-326514.jpeg)
-# Web Service and Applications - Assignment tasks
-## Author: Lucia Macakova
-### About: 
-This is my solution for assignment tasks in the module Web Services and Applications. I am the only contributor.
->>>>>>> 397c4782876f59a915bc005f758676a515e0aa78
 I used modules requests[^1], json[^2], Github from PyGithub library[^3], and an authorisation token from my config.py file
 
 ---
