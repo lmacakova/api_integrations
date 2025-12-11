@@ -14,10 +14,8 @@ urlOfFile = fileInfo.download_url
 response = requests.get(urlOfFile)
 contentOfFile = response.text
 print (contentOfFile) # content of file
-newContent = "Marek" # write something new
+newContent = "Jana" # write something new
 print (newContent) # new content
-gitHubResponse=repo.update_file(fileInfo.path,"Assignment4", newContent, fileInfo.sha) # commit
+gitHubResponse=repo.update_file(fileInfo.path,"update_github", newContent, fileInfo.sha) # commit
 print (gitHubResponse) 
-print(type(cfg))
-print(cfg)
 
