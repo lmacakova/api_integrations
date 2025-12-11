@@ -2,7 +2,7 @@ import requests
 import json
 
 card_api_url = "https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1"
-response = requests.get(url) 
+response = requests.get(card_api_url) 
 deck = response.json() #asking for deck
 deck_id = deck['deck_id']
 print(deck) # printing deck
