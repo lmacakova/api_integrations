@@ -21,12 +21,6 @@ A program that reads a file from a repository. The program can replace all the i
 
 ---
 
-### Contact:
-Lucia Macakova\
-email: G00439449@atu.ie
-
----
-
 ### Resources:
 [^1]:   https://pypi.org/project/requests/
 [^2]:   https://docs.python.org/3/library/json.html   
